@@ -47,7 +47,6 @@
 }
 .my-list {
   white-space: nowrap;
-  
 }
 .my-list > img {
   padding-inline: 10px;
@@ -87,110 +86,110 @@
   color: rgb(31, 31, 31);
   font-size: 10px;
 }
-.category-section{
+.category-section {
   width: 90%;
-  margin:auto;
+  margin: auto;
 }
-.category-section-row{
+.category-section-row {
   width: 100%;
   overflow-x: scroll;
 }
-.my-footer{
-  width:90%;
-  margin:auto;
+.my-footer {
+  width: 90%;
+  margin: auto;
 }
-.row-3{
+.row-3 {
   text-align: justify;
-   color: #666666;
+  color: #666666;
   font-size: 13px;
   padding: 15px;
 }
-.row-2{
+.row-2 {
   display: flex;
-  justify-content:space-between ;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
-.row-2>p{
-text-align: justify;
-color: #666666;
-font: size 12px;
-width: 35%;
-
-
-
+.row-2 > p {
+  text-align: justify;
+  color: #666666;
+  font: size 12px;
+  width: 35%;
 }
-.social-btn{
+.social-btn {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   background-color: black;
   color: white;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  margin-inline:10px;
+  margin-inline: 10px;
 }
-.social{
-  display:flex;
+.social {
+  display: flex;
 }
-.download-section>p{
+.download-section > p {
   font-weight: 600;
-    font-size: 14px;
-    margin: 16px;
+  font-size: 14px;
+  margin: 16px;
 }
-.download-btn{
+.download-btn {
   background-color: #213b50;
-  color:white;
+  color: white;
   border-radius: 10px;
-  margin:10px;
-  border:none;
-  padding:10px;
+  margin: 10px;
+  border: none;
+  padding: 10px;
 }
-.row-1{
+.row-1 {
   margin: top 20px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.useful-links{
-  flex:2;
-
+.useful-links {
+  flex: 2;
 }
-.categories-links{
-flex:3;
+.categories-links {
+  flex: 3;
 }
-table{
+table {
   width: 100%;
 }
-td{
+td {
   font-size: 14px;
-  color:#666666;
-  padding:3px 10px;
+  color: #666666;
+  padding: 3px 10px;
 }
-@media screen and (max-width:768px){
-  nav,.row-2,.row-1{
-    flex-direction:column !important;
+@media screen and (max-width: 768px) {
+  nav,
+  .row-2,
+  .row-1 {
+    flex-direction: column !important;
   }
-  .vertical-line,.hero-section>img{
-    display:none; !important;
+  .vertical-line,
+  .hero-section > img {
+    display: none !important;
   }
-  
 }
-.row-2>p,.search-div{
-  width:90%
+.row-2 > p,
+.search-div {
+  width: 90%;
 }
-.row-1>div,.my-container{
+.row-1 > div,
+.my-container {
   margin: top 20px;
 }
-.row-1>div>h2 ,.row-1>div>h4{
-  text-align:center;
- 
-}
-td{
+.row-1 > div > h2,
+.row-1 > div > h4 {
   text-align: center;
 }
-.social{
+td {
+  text-align: center;
+}
+.social {
   margin-top: 10px;
 }
